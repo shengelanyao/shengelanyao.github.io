@@ -1,0 +1,65 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #257467;
+  --ifm-color-primary-dark: #21685d;
+  --ifm-color-primary-darker: #1f6358;
+  --ifm-color-primary-darkest: #1a5148;
+  --ifm-color-primary-light: #298071;
+  --ifm-color-primary-lighter: #2b8576;
+  --ifm-color-primary-lightest: #309786;
+  --ifm-background-color: #f2f4e6;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #ffe27a;
+  --ifm-color-primary-dark: #ffda54;
+  --ifm-color-primary-darker: #ffd641;
+  --ifm-color-primary-darkest: #ffc909;
+  --ifm-color-primary-light: #ffeaa0;
+  --ifm-color-primary-lighter: #ffeeb3;
+  --ifm-color-primary-lightest: #fffbeb;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.markdown h1:first-child{
+  color: var(--ifm-color-primary);
+  font-family: "华文仿宋";
+  font-weight: bolder;
+}
+.markdown > h2{
+  color: var(--ifm-color-primary);
+  font-family: "华文仿宋";
+}
+.pagination-nav__link{
+  border: 1px solid var(--ifm-color-primary);
+}
+.pagination-nav__link:hover{
+  border: 3px solid var(--ifm-color-primary);
+}
+/* .footer__links{
+  color: var(--ifm-color-primary);
+} */
+.footer__copyright{
+  color: var(--ifm-color-primary);
+}
+.heroBanner_src-pages-index-module{
+  background-image: url(https://user-images.githubusercontent.com/109078960/182808925-b23d4d93-df5d-477f-bbe0-764c7d7640b8.jpg);
+}
+.heroBanner_src-pages-index-module{
+  padding: 0rem;
+}
+.hero__title{
+  color: var(--ifm-color-primary)
+}
+.text--center{
+  color: var(--ifm-color-primary)
+}
